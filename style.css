@@ -1,0 +1,90 @@
+
+
+body {
+    background-color: darkgray;
+    font: 16px/24px Arial;
+    background-image: url(background.png);
+}
+
+.container {
+    width: 700px;
+    background-color: silver;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.header {
+    padding: 0px;
+}
+
+.judul {
+    text-align: center;
+    padding-top: 20px;
+}
+
+i {
+    color: green;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.nav ul li {
+    margin-right: 50px;
+    font-size: 25x;
+}
+
+.nav a:hover {
+    background-color: green;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    height: 350px;
+    background-image: url(WelterWhite.jpg);
+    background-size: cover;
+    background-position: 0 -760px;
+    border-top: 5px solid darkgreen;
+    border-bottom: 5px solid green;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content .tulis a {
+    color: green;
+    text-decoration: none;
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+.content .tulis {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.footer {
+    background-color: darkslategray;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
